@@ -1,0 +1,17 @@
+{
+  "name": "al-rabyah-backend",
+  "version": "1.0.0",
+  "description": "Backend server for Al Rabyah Square",
+  "main": "proxy-server.cjs",
+  "type": "module",
+  "scripts": {
+    "start": "node proxy-server.cjs"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
